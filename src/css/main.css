@@ -35,7 +35,6 @@ form, iframe, noscript {
 .container {
   width: 257px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .info.valid {
@@ -352,12 +351,6 @@ img {
   }
 }
 
-
-.heading{
-  text-align: center;
-  display: inline;
-}
-
 .about :hover {
   -webkit-animation-play-state: running;
           animation-play-state: running;
@@ -518,7 +511,6 @@ img {
   font-size: 2.25em;
   text-align: center;
 }
-
 
 .sponsors h2 {
   font-family: 'Muli', sans-serif;
@@ -848,17 +840,9 @@ img {
   margin-bottom: .6em;
   font-family: 'Muli', sans-serif;
   resize: none;
-  border-radius: 30px;
 }
 
 .map .right form #input-submit {
-  /* margin-top: 0.2rem; */
-  border-radius: 30px;
-  position: relative;
-  display: inline;
-  align-items: center;
-  top: 2%;
-  width: 8em;
   color: white;
   background: #3e81d8;
   cursor: pointer;
