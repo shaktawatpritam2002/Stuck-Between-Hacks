@@ -483,6 +483,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+  font-size: larger;
 }
 
 @keyframes Gradient {
@@ -592,6 +593,7 @@ img {
 }
 
 .sponsors .img-fluid {
+  border-radius: 12px;
   max-width: 100%;
   height: auto;
   -webkit-transition: 0.3s ease;
@@ -601,6 +603,7 @@ img {
 .sponsors .img-fluid:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
+  box-shadow: 0px 0px 30px rgb(239, 190, 44);
 }
 
 .sponsors .underline--magical {
@@ -612,6 +615,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -727,6 +731,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -892,6 +897,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -1648,6 +1654,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -1777,6 +1784,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -1892,6 +1900,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -2043,6 +2052,18 @@ img {
   /* 2 */
 }
 
+input {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
 .map .right .cf:after {
   clear: both;
 }
@@ -2057,6 +2078,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
